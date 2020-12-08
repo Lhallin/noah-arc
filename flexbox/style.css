@@ -5,11 +5,11 @@ box-sizing: border-box;
 }
 
 .menu-container {
-
+display: flex;
+justify-content: center;
 color: #fff;
 background-color: #5995DA; /* Blue */
 padding: 20px 0;
-
 
 }
 
@@ -17,6 +17,28 @@ padding: 20px 0;
 
 border: 1px solid #fff; /* For debugging */
 width: 900px;
+display: flex;
+justify-content: space-between;
+
+}
+
+.link {
+border: 1px solid #fff; /* For Debugging */
+Display: flex;
+justify-content: flex-end;
+
+}
+
+.login {
+margin-left: 20px;
+
+}
+
+.header-container {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
 
 
 }
